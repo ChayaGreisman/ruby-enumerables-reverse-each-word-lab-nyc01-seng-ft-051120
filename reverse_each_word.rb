@@ -40,3 +40,7 @@ def reverse_each_word(sentence)
     reversed_sentence.join(" ")
 end
 
+def reverse_each_word(sentence) 
+  results = sentence.split.collect do 
+    |word| word.reverse 
+    end results.join(" ")end
