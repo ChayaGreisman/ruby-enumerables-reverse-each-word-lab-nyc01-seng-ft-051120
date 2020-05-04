@@ -1,5 +1,3 @@
-
-=begin
 #using .each
 def reverse_each_word(sentence)
   
@@ -30,7 +28,8 @@ def reverse_each_word(sentence)
   
   sentence
 end
-=end
+
+# another way
 
 def reverse_each_word(sentence) 
   reversed_sentence = [] 
