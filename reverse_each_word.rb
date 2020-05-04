@@ -48,6 +48,9 @@ def reverse_each_word(sentence)
     results.join(" ")
 end
 
+
+#using {---} shorthand
+
 def reverse_each_word(sentence) 
   sentence.split(" ").collect 
   {|word| word.reverse }.join(" ")
